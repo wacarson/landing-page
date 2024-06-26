@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: roboto, sans-serif;
 }
 
 .header {
@@ -53,7 +54,7 @@ a {
 .main-title {
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: extra-bold;
+  font-weight: 900;
   margin: 0 10px 10px 0;
 }
 
@@ -69,6 +70,9 @@ button {
 	max-width: 100px;
 	border: none;
 	border-radius: 8px;
+}
+
+.button {
 	flex: 0 1 30px;
 	margin: 0 10px 10px 0;
 }
@@ -81,8 +85,11 @@ button {
 
 .info-header {
 	font-size: 36px;
-	font-weight: extra-bold;
+	font-weight: 900;
 	color: #1F2937;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
 }
 
 
@@ -92,4 +99,71 @@ button {
 
 .sub {
 	max-width: 150px;
+	margin-bottom: 50px;
 }
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.qtext {
+	font-weight: lighter;
+	color: #1F2937;
+	font-size: 36px;
+	font-style: italic;
+	max-width: 600px;
+	align-self: center;
+}
+
+.author{
+	color: #1F2937;
+	font-size: 18px;
+	font-weight: 600;
+	align-self: center;
+	padding-left: 600px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 90px;
+}
+
+.call {
+	background-color: #3882F6;
+	color: #E5E7EB;
+	margin: 100px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	border: 1px solid #3882F6;
+    border-radius: 20px;
+}
+
+.callmain {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.callwords {padding: 60px;}
+
+.button2 {
+  border: solid;
+  flex: 1 0 30px;
+  max-width: 100px;
+  min-width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.footer {
+	background-color: #1F2937;
+	color: #F9FAF8;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	font-size: 18px;
+}
+
